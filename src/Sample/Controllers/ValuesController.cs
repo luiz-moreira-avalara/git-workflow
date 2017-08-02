@@ -22,6 +22,12 @@ namespace Sample.Controllers
             return foo;
         }
 
+        [HttpGet("api/reply2")]
+        public IEnumerable<string> Get(string foo)
+        {
+            return foo;
+        }
+
         // GET api/values/5
         [HttpGet("{id}")]
         public string Get(int id)
