@@ -17,7 +17,7 @@ namespace Sample.Controllers
         }
 
         [HttpGet("api/reply")]
-        public IEnumerable<string> Get(string foo)
+        public IEnumerable<int> Get(int foo)
         {
             return foo;
         }
